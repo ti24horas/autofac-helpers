@@ -50,12 +50,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutofacExtensions.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="ExportAttribute.cs" />
     <Compile Include="ExportImplementedInterfaces.cs" />
     <Compile Include="ICustomScopeHook.cs" />
+    <Compile Include="PerSession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scope.cs" />
+    <Compile Include="ScopeResolver.cs" />
+    <Compile Include="SingleInstanceHook.cs" />
+    <Compile Include="TransientScope.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
