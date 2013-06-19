@@ -31,8 +31,8 @@ desc "push nuget package"
 nugetpush do |nuget|
 	nuget.command = ".nuget/NuGet.exe"
 	nuget.package = "Autofac.Helpers.#{env_buildversion}.nupkg"
-	nuget.apikey = ENV["nuget.apikey"]
-	nuget.source = ENV["nuget.server"]
+	nuget.apikey = ENV["nugetapikey"]
+	nuget.source = ENV["nugetserver"]
 end
 
 desc "Run a sample assembly info generator"
