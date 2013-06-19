@@ -1,0 +1,6 @@
+source "http://gems.rubyforge.org/"
+source "http://gems.github.com"
+gem "builder",  "~> 2.0"
+gem "albacore"
+gem "rake"
+gem "version_bumper"
